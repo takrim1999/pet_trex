@@ -1,0 +1,10 @@
+**Board:
+
+1. full screen Trex game board location:
+Box(left=376, top=169, width=618, height=162)
+
+2. working screen Trex game board location:
+Box(left=92, top=169, width=496, height=162)
+
+3. without obstacles just dino and space:
+Box(left=159, top=267, width=423, height=42)
