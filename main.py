@@ -7,7 +7,7 @@ while True:
     image = pyautogui.screenshot()
     image = numpy.asarray(image)
     col = int(sum(image[280,60]/3))
-    image = image[280:305,210:285]
+    image = image[280:310,270:320]
     image = image != col  
     if image.any() == True:
         pyautogui.press("UP")
